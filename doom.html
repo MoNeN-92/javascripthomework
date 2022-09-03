@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="/doom.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700">
+
+</head>
+
+<body>
+    
+<navbar class="navbar position-fixed">
+    <ul class="list">
+        <li class=""> <a href="#">Blog</a> </li>
+        <li class="login"> <a href="#">Log in</a> </li>
+        <button>Sign up</button>
+    </ul>
+</navbar>
+
+<div class="costumselect  ">
+    <form class="option">
+        <input type="hidden" name="cityid"  value="">
+        <h3 class="choose mb-0"> <span>აირჩიეთ ქალაქი</span> <i class="fa-solid fa-chevron-down"></i></h3>
+        <ul class="list">
+            <li data-cityid="1">თბილისი (ტიფლისი)</li>
+            <li data-cityid="2">თელავი (კახეთი)</li>
+            <li data-cityid="3">ამბროლაური (რაჭა)</li>
+            <li data-cityid="4">მესტია (სვანეთი)</li>
+            <li data-cityid="5">ბათუმი (აჭარა)</li>
+            <li data-cityid="6">ზუგდიდი (სამეგრელო)</li>
+        </ul>
+    </form>
+</div>
+
+    <div class=" mt-5 container bg-white mycont">
+        <h3 class="text-muted col-lg-3  pt-5 mx-auto">Worksheet Name...</h3>
+        <div class="row col-lg-6 mx-auto  mt-5 p-4 ">
+            <div class=" mt-5" id="myinputs">
+                <i class="fa-solid myci "></i>
+                <input type="text" class="circl-marg mybord " placeholder="Problem" name="" id="">
+                <button class="btn" id="add"><img src="img/New.jpg" id="myimg" class="icon-plus" alt="PLUS"> </button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="doom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

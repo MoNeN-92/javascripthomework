@@ -1,0 +1,117 @@
+.circl-marg {
+    margin-left: 20px;
+}
+
+/* .circl-marg:hover {
+    border: 1px solid gray;
+
+} */
+
+.mybord {
+    border: none;
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.mybord:hover {
+    border: 1px solid black;
+    opacity: 0.3;
+
+}
+
+.myci {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50px;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    margin-bottom: -17px;
+}
+
+body {
+    background-color: rgb(128, 214, 214);
+}
+
+.mycont {
+    height: 100vh;
+}
+
+.icon-plus {
+    width: 17px;
+    height: 17px;
+}
+
+.icon-pluss {
+    width: 17px;
+    height: 17px;
+    margin-left: 16px;
+}
+
+.btn {
+    border: none;
+}
+
+.costumselect {
+    width: 350px;
+    border-radius: 7px;
+    padding: 20px;
+    box-shadow: 0px 5px 20px 8px;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
+
+.costumselect ul {
+    display: none;
+    list-style: none;
+    padding-left: 0;
+}
+.costumselect ul.show {
+    display: block;
+}
+
+.costumselect ul li {
+    padding: 7px 10px;
+}
+
+.costumselect ul li:hover {
+    background-color: gray;
+}
+.choose {
+    cursor: pointer;
+}
+.navbar {
+   top: 0;
+   width: 100%;
+   height: 70px;
+   background-color: #fff;
+   margin-bottom: 20px;
+   transition: all 0.6s linear;
+}
+.navbar ul li {
+    list-style-type: none;
+    width: 80px;
+    text-align: center;
+    display: inline;
+}
+.login {
+    margin: 0px 7px 0px 7px;
+}
+.navbar button {
+    background-color: blue;
+    color: #fff;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+.scrolled {
+    box-shadow: 0px 10px 60px 0px;
+    background-color: aqua;
+}
+
+
+
